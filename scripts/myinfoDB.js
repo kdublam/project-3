@@ -1,10 +1,8 @@
 const mongoose = require("mongoose");
 const db = require("../models");
 
-mongoose.connect(
-  process.env.MONGODB_URI ||
-  "mongodb://user:poop123@ds163354.mlab.com:63354/heroku_09nsqj9v", {useNewUrlParser: true}
-);
+mongoose.connect("mongodb://user:poop123@ds163354.mlab.com:63354/heroku_09nsqj9v");
+
 
 //each states election info
 const myinfoSeed = [
