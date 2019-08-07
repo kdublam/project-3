@@ -3,7 +3,7 @@ const db = require("../models");
 
 mongoose.connect(
   process.env.MONGODB_URI ||
-  "mongodb://localhost/authentication", {useNewUrlParser: true}
+  "mongodb://user:poop123@ds163354.mlab.com:63354/heroku_09nsqj9v", {useNewUrlParser: true}
 );
 
 //each states election info
