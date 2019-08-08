@@ -15,7 +15,7 @@ VOT:ED is a platform for voters to research and get educated on the upcoming Pri
 This application was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The backend was built using Nodejs, Express, MongoDB, and various APIs (NewsAPI & Twitter).
 
 You can check out the here
-[Live Demo](https://kdublam.github.io/clicky-game/)!
+[Live Demo](https://vot-ed.herokuapp.com/)!
 
 ## Tech Used
 - React
