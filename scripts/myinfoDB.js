@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const db = require("./models");
+const db = require("../models");
 
 mongoose.connect("mongodb://user:poop123@ds163354.mlab.com:63354/heroku_09nsqj9v").then(data=>console.log(data)).catch(err=>console.log(err))
 
