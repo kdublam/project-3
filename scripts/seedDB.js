@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
-const db = require("../models");
+const db = require("./models");
 
 // This file empties the Books collection and inserts the books below
 
-mongoose.connect("mongodb://user:poop123@ds163354.mlab.com:63354/heroku_09nsqj9v");
+mongoose.connect("mongodb://user:poop123@ds163354.mlab.com:63354/heroku_09nsqj9v").then(data=>console.log(data)).catch(err=>console.log(err))
 
 const candidateSeed = [
 	{
